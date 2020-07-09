@@ -8,6 +8,6 @@ def my_all?(collection)
     i += 1 
   end
   
-  block_return_values.inclue?(false) ? false : true 
+  block_return_values.include?(false) ? false : true 
   
 end
